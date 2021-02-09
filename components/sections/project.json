@@ -12,9 +12,6 @@
       "repeatable": false,
       "component": "sections.gallery"
     },
-    "project": {
-      "model": "project"
-    },
     "customClass": {
       "type": "string",
       "private": true

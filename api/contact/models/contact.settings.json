@@ -11,10 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "client": {
-      "model": "client",
-      "via": "contacts"
-    },
     "email": {
       "type": "email",
       "required": true
