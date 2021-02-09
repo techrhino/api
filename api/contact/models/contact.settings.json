@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "client": {
+      "model": "client",
+      "via": "contacts"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "testimonials": {
+      "collection": "testimonial",
+      "via": "author"
+    },
+    "fullName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

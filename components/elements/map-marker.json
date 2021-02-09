@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_elements_map_markers",
+  "info": {
+    "name": "Map",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "center_lat": {
+      "type": "float",
+      "required": true
+    },
+    "center_lng": {
+      "type": "float",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "marker": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

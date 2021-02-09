@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_projects",
+  "info": {
+    "name": "Project",
+    "icon": "chess-knight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.gallery"
+    },
+    "project": {
+      "model": "project"
+    },
+    "customClass": {
+      "type": "string",
+      "private": true
+    }
+  }
+}

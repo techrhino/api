@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "deploy": "pm2 stop 2 && npm i && strapi build && pm2 restart 2 --no-daemon --update-env",
+    "backup": "cd /d S:/Temp Files/Elyas Christiansen/MONGO && mongodump",
+    "restore": "cd /d S:/Temp Files/Elyas Christiansen/MONGO && mongorestore",
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "^3.4.6",
+    "strapi-admin": "^3.4.6",
+    "strapi-connector-mongoose": "^3.4.6",
+    "strapi-helper-plugin": "^3.4.6",
+    "strapi-plugin-content-manager": "^3.4.6",
+    "strapi-plugin-content-type-builder": "^3.4.6",
+    "strapi-plugin-email": "^3.4.6",
+    "strapi-plugin-upload": "^3.4.6",
+    "strapi-plugin-users-permissions": "^3.4.6",
+    "strapi-utils": "^3.4.6"
+  },
+  "author": {
+    "name": "Elyas Christiansen"
+  },
+  "strapi": {
+    "uuid": "daa8562f-7a60-436d-bc45-456c2362fe36"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

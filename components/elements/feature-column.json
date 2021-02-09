@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_slices_feature_columns",
+  "info": {
+    "name": "FeatureColumn",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "icon",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "icon",
+      "required": true
+    },
+    "idSlug": {
+      "type": "string"
+    },
+    "published": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

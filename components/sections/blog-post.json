@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_elements_blog_posts",
+  "info": {
+    "name": "BlogPost",
+    "icon": "user-edit",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext",
+      "required": true
+    },
+    "author": {
+      "plugin": "admin",
+      "model": "user"
+    },
+    "published": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "customClass": {
+      "type": "string",
+      "private": true
+    }
+  }
+}

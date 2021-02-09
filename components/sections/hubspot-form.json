@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_hubspot_forms",
+  "info": {
+    "name": "Hubspot Form",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "formId": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_map_locations",
+  "info": {
+    "name": "MapLocation",
+    "icon": "binoculars"
+  },
+  "options": {},
+  "attributes": {
+    "map": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.map-marker",
+      "required": true
+    }
+  }
+}
