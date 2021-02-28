@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ponies",
+  "info": {
+    "name": "Pony",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "height": {
+      "type": "decimal"
+    },
+    "max_child_weight": {
+      "type": "integer"
+    },
+    "breeds": {
+      "collection": "pony-breed"
+    },
+    "colors": {
+      "collection": "pony-color"
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "services": {
+      "collection": "service",
+      "via": "ponies"
+    },
+    "genders": {
+      "collection": "pony-gender",
+      "via": "ponies"
+    },
+    "slug": {
+      "type": "uid"
+    }
+  }
+}

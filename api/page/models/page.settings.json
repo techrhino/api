@@ -37,11 +37,9 @@
         "sections.rich-text",
         "sections.pricing",
         "sections.blog-post",
-        "sections.hubspot-form",
         "sections.page-list",
         "sections.gallery",
-        "sections.map-location",
-        "sections.project"
+        "sections.map"
       ]
     },
     "status": {

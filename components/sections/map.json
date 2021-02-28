@@ -1,12 +1,13 @@
 {
-  "collectionName": "components_sections_map_locations",
+  "collectionName": "components_sections_maps",
   "info": {
-    "name": "MapLocation",
-    "icon": "binoculars"
+    "name": "Map",
+    "icon": "bug",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "map": {
+    "Map": {
       "type": "component",
       "repeatable": true,
       "component": "elements.map-marker",

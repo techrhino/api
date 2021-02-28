@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pony_colors",
+  "info": {
+    "name": "Color",
+    "icon": "dragon"
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "string"
+    }
+  }
+}

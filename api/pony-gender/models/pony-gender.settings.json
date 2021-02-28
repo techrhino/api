@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pony_genders",
+  "info": {
+    "name": "PonyGender",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Gender": {
+      "type": "string"
+    },
+    "ponies": {
+      "via": "genders",
+      "collection": "pony",
+      "dominant": true
+    }
+  }
+}

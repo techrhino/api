@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pony-colors",
+      "handler": "pony-color.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pony-colors/count",
+      "handler": "pony-color.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pony-colors/:id",
+      "handler": "pony-color.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pony-colors",
+      "handler": "pony-color.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pony-colors/:id",
+      "handler": "pony-color.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pony-colors/:id",
+      "handler": "pony-color.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

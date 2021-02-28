@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "name": "Service",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Code": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "ponies": {
+      "via": "services",
+      "collection": "pony",
+      "dominant": true
+    },
+    "Cost": {
+      "type": "float"
+    },
+    "WeProvide": {
+      "type": "richtext"
+    },
+    "YouProvide": {
+      "type": "richtext"
+    },
+    "ExtraCost": {
+      "type": "float"
+    },
+    "MaxHoursAllowed": {
+      "type": "float"
+    }
+  }
+}

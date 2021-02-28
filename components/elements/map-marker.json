@@ -7,10 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "key": {
-      "type": "string",
-      "required": true
-    },
     "center_lat": {
       "type": "float",
       "required": true
@@ -29,7 +25,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pony_breeds",
+  "info": {
+    "name": "PonyBreed",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Breed": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

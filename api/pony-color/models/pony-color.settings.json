@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pony_colors",
+  "info": {
+    "name": "PonyColor",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Color": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

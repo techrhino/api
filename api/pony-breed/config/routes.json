@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pony-breeds",
+      "handler": "pony-breed.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pony-breeds/count",
+      "handler": "pony-breed.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pony-breeds/:id",
+      "handler": "pony-breed.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pony-breeds",
+      "handler": "pony-breed.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pony-breeds/:id",
+      "handler": "pony-breed.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pony-breeds/:id",
+      "handler": "pony-breed.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

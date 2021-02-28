@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pony-genders",
+      "handler": "pony-gender.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pony-genders/count",
+      "handler": "pony-gender.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pony-genders/:id",
+      "handler": "pony-gender.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pony-genders",
+      "handler": "pony-gender.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pony-genders/:id",
+      "handler": "pony-gender.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pony-genders/:id",
+      "handler": "pony-gender.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
